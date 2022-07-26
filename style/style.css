@@ -76,6 +76,18 @@ a:hover{
     margin: 2em 0;
 }
 
+img:hover{
+    animation: vacas 4s;
+}
+@keyframes vacas{
+    50%{
+        transform: scale(2);
+    }
+    75%{
+        border-radius: 10px;
+    }
+}
+
 .sidebar{
     grid-area: sidebar;
     background-color:rgb(15, 15, 14);
