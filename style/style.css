@@ -80,10 +80,10 @@ img:hover{
     animation: vacas 4s;
 }
 @keyframes vacas{
-    50%{
+    30%{
         transform: scale(2);
     }
-    75%{
+    70%{
         border-radius: 10px;
     }
 }
